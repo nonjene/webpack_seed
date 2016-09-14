@@ -1,0 +1,35 @@
+{
+  "name": "webpackSeed",
+  "version": "1.0.0",
+  "description": ".",
+  "main": "",
+  "scripts": {
+    "watch": "export NODE_ENV=development && webpack --progress --colors --watch",
+    "build": "export NODE_ENV=production && webpack --progress --colors"
+  },
+  "author": "nonjene",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.15.0",
+    "imports-loader": "^0.6.5",
+    "node-sass": "^3.7.0",
+    "postcss-loader": "^0.9.1",
+    "resolve-url-loader": "^1.4.3",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-livereload-plugin": "^0.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
