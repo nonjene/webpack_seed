@@ -66,8 +66,8 @@ module.exports = {
                 include: /(lib|node_modules)/,
                 loader: ExtractTextPlugin.extract('style?sourceMap', 'css')
             },
-            {test: /\.png$/, loader: "url-loader?limit=4000&name=img/[hash:8].[ext]"},
-            {test: /\.jpg$/, loader: "file-loader"},
+            {test: /\.png|gif$/, loader: "url-loader?limit=4000&name=img/[name]_[hash:6].[ext]"},
+            {test: /\.jpg$/, loader: "file-loader?&name=img/[name]_[hash:6].[ext]"},
             {test: /\.handlebars$/, loader: "handlebars-loader"}
 
         ]

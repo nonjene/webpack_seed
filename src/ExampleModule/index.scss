@@ -1,3 +1,19 @@
 .cont{
-    color:deepskyblue;
+    text-align: center;
+    h1{
+        color: deepskyblue;
+    }
+    figcaption{
+        text-align: left;
+        margin:15px;
+    }
+    code{
+        background-color:#ededed;
+        padding:0 5px;
+        vertical-align: middle;
+    }
+}
+.bg{
+    background: url('./img/example2.jpg') no-repeat center;
+    height:240px;
 }

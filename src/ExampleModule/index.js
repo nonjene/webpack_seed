@@ -1,7 +1,13 @@
 /**
  * Created by Nonjene on 16/9/15.
  */
-const css = require('./index.scss');
-const tpl = require('./main.handlebars');
+var css = require('./index.scss');
+var img = {
+    example: require('./img/example.jpg')
+};
+var tpl = require('./main.handlebars');
 
-document.getElementById('container').innerHTML = tpl({css: css});
+document.getElementById('container').innerHTML = tpl({
+    css: css,
+    img: img
+});
