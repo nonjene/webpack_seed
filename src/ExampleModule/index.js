@@ -7,7 +7,4 @@ var img = {
 };
 var tpl = require('./main.handlebars');
 
-document.getElementById('container').innerHTML = tpl({
-    css: css,
-    img: img
-});
+document.getElementById('container').innerHTML = tpl({css, img});

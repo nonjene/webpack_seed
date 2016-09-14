@@ -68,7 +68,15 @@ module.exports = {
             },
             {test: /\.png|gif$/, loader: "url-loader?limit=4000&name=img/[name]_[hash:6].[ext]"},
             {test: /\.jpg$/, loader: "file-loader?&name=img/[name]_[hash:6].[ext]"},
-            {test: /\.handlebars$/, loader: "handlebars-loader"}
+            {test: /\.handlebars$/, loader: "handlebars-loader"},
+            {
+                test: /\.js$/,
+                exclude: /(node_modules|bower_components)/,
+                loader: 'babel', // 'babel-loader' is also a legal name to reference
+                query: {
+                    presets: ['es2015']
+                }
+            }
 
         ]
     },
