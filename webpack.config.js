@@ -67,7 +67,8 @@ module.exports = {
                 loader: ExtractTextPlugin.extract('style?sourceMap', 'css')
             },
             {test: /\.png$/, loader: "url-loader?limit=4000&name=img/[hash:8].[ext]"},
-            {test: /\.jpg$/, loader: "file-loader"}
+            {test: /\.jpg$/, loader: "file-loader"},
+            {test: /\.handlebars$/, loader: "handlebars-loader"}
 
         ]
     },

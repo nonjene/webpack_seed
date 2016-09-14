@@ -9,9 +9,7 @@
   },
   "author": "nonjene",
   "license": "MIT",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "css-loader": "^0.23.1",
@@ -26,7 +24,9 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.0",
-    "webpack-livereload-plugin": "^0.8.1"
+    "webpack-livereload-plugin": "^0.8.1",
+    "handlebars": "^4.0.5",
+    "handlebars-loader": "^1.4.0"
   },
   "repository": {
     "type": "git",
