@@ -1,7 +1,7 @@
 {
   "name": "webpackSeed",
   "version": "1.0.0",
-  "description": ".",
+  "description": "A webpack seed for multiple pages output.",
   "main": "",
   "scripts": {
     "watch": "export NODE_ENV=development && webpack --progress --colors --watch",
@@ -35,6 +35,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
-  }
+    "url": "https://github.com/nonjene/webpack_seed"
+  },
+  "keywords": [
+    "webpack seed",
+    "webpack boilerplate"
+  ],
+  "bugs": {
+    "url": "https://github.com/nonjene/mock_service/issues"
+  },
+  "homepage": "https://github.com/nonjene/mock_service#readme"
 }
