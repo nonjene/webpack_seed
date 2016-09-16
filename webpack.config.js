@@ -83,5 +83,6 @@ module.exports = {
     plugins: plugins,
     postcss: function () {
         return [autoprefixer];
-    }
+    },
+    devtool: "#inline-source-map"
 };
